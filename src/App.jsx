@@ -69,7 +69,7 @@ function App() {
             setDisplayState(ticketsGroupedByStatus);
             setLocalStorageItem("currentstate", ticketsGroupedByStatus);
         }
-    }, [tickets]);
+    }, [tickets,displayState.length]);
 
     const groupHandler = (elmnt) => {
         setShowFilterContainer(false);

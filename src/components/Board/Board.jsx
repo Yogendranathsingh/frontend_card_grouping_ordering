@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 import Card from "../TicketCard/TicketCard";
 import "./Board.css";
-import { BsFillBarChartFill } from "react-icons/bs";
-import { AiOutlinePlus, AiOutlineCheckCircle } from "react-icons/ai";
+import { AiOutlinePlus } from "react-icons/ai";
 import { BiDotsHorizontalRounded } from "react-icons/bi";
 import { IoEarthSharp } from "react-icons/io5";
 function Board({ tickets, header }) {
